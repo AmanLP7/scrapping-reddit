@@ -1,0 +1,7 @@
+services:
+  spark:
+    image: bitnami/spark
+    ports:
+      -3000:3000
+    environment:
+      - SPARK_MODE=master
