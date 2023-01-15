@@ -10,3 +10,8 @@ This pipeline -
 - Streamlit
 - MongoDB
 - HDFS
+
+## Issues
+- After running docker compose file to create spark container if you are unable to open spark UI, then it is 
+because port mapping has not been set up correctly in the docker compose file. You need to set 1 port for master
+and 1 for spark UI. Refer to this link - https://stackoverflow.com/questions/70891552/why-is-my-spark-web-interface-not-active
