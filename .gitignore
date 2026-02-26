@@ -1,3 +1,4 @@
-__pycache__/
-.idea/
-.python-version
+
+target/
+dbt_packages/
+logs/
